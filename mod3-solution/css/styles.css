@@ -1,0 +1,84 @@
+body{
+	font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+  background-color: grey;
+  border: 0;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  height: 58px;
+  margin-bottom: 0;
+}
+
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+#nav-list a {
+  text-align: center;
+  color: black;
+}
+
+#heading {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#sections .article {
+  padding-bottom: 30px;
+}
+
+.article-content {
+  background-color: grey;
+  padding: 10px 20px;
+}
+
+.item-title{
+  margin-top: 0;
+  text-align: center;
+}
+
+.item-details {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+
+  #header-nav {
+    height: auto;
+  }
+
+  #collapsable-nav {
+    background-color: #fff;
+    border: 2px solid black;
+    border-bottom: 0;
+    padding: 0;
+  }
+
+  #nav-list {
+    margin: 0;
+  }
+
+  #nav-list hr {
+    margin: 0;
+    border-top: 1px solid black;
+  }
+
+}
